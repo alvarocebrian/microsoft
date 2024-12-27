@@ -1,0 +1,15 @@
+{
+    "name": "strongholdam/microsoft",
+    "description": "Integration with Microsoft utilities",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Strongholdam\\Microsoft\\GraphApi\\": "graph-api",
+            "Strongholdam\\Microsoft\\OneDrive\\": "onedrive"
+        }
+    },
+    "require": {
+        "symfony/http-client": "^6.0 | ^7.0",
+        "symfony/console": "^6.0 | ^7.0"
+    }
+}

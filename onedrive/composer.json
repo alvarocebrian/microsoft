@@ -1,0 +1,13 @@
+{
+    "name": "strongholdam/microsoft-onedrive",
+    "description": "Integration with Microsoft OneDrive API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Strongholdam\\Microsoft\\OneDrive\\": ""
+        }
+    },
+    "require": {
+        "symfony/console": "^6.0 | ^7.0"
+    }
+}

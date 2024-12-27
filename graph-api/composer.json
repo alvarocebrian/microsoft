@@ -1,0 +1,13 @@
+{
+    "name": "strongholdam/microsoft-graph-api",
+    "description": "Integration with Microsoft Graph Api",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Strongholdam\\Microsoft\\GraphApi\\": ""
+        }
+    },
+    "require": {
+        "symfony/http-client": "^7.2"
+    }
+}
